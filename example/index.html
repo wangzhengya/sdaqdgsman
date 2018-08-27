@@ -47,6 +47,12 @@
                             </div>
                             <div class="weui-cell__ft"></div>
                         </a>
+                        <a class="weui-cell weui-cell_access js_item" data-id="info" href="javascript:;">
+                            <div class="weui-cell__bd">
+                                <p>事项说明</p>
+                            </div>
+                            <div class="weui-cell__ft"></div>
+                        </a>
                     </div>
                 </div>
             </li>
@@ -228,7 +234,7 @@
                         <section>
                             <h3>路径 </h3>
                             <p>
-                                路径：设置-关于系统。点击“注销系统”按钮。
+                                路径：“我的”-“关于系统”。点击“注销系统”按钮。
                             </p>
                             <p>
                                 <img src="./images/logoff.jpg" alt="">
@@ -293,6 +299,54 @@
         });
     });
 </script>
+</script>
+<script type="text/html" id="tpl_info">
+    <div class="page">
+        <div class="page__hd">
+            <h1 class="page__title">系统说明</h1>
+            <p class="page__desc">一些大家关注的事项的说明</p>
+        </div>
+        <div class="page__bd">
+            <article class="weui-article">
+                <section>
+                    <section>
+                        <h3>1.	工时统计目的：</h3>
+                        <p>
+                                多劳多得，提高效率。有需要帮忙的机位，单机在群中提出需求，去帮忙要产生工时，没有需求，不产生工时的机位就不要去支援，避免空转浪费资源和时间；所有工作项目工时都已经固定，不以实际工作时间统计，鼓励提高效率。
+                        </p>
+
+                        <p>
+                                2.	工时统计类似工作得分，暂时不与工资挂钩，用来做队员之间的工作量比较，大家不要在意某些工作给的工时偏少，大家考核的规则一样，同样的工作同样的工时，对大家是公平的。
+                        </p>
+                        <p>
+                                3.	较小的非例行工作已经包括在航后工作中，不再做工时申请（比如打印纸、补充备用灯泡盒，客舱灯光，简单的外部灯光等）。
+                        </p>
+                        <p>
+                                4.	例行工作由单机负责录入，其他协助者不用录工时，避免重复录入
+                        </p>
+                        <p>
+                                5.	非例行工作中，由指定一名工作者录入工时（默认为填写维修记录者），其他工作者不用录入，避免重复录入；只录入工作项目，工时系统已经固定给出。
+                        </p>
+                        <p>
+                                6.	工作录入者要把所有有效工作者，协助者录入，这样工时自动均分，不能只录入自己；
+                        </p>
+                        <p>
+                                7.	其他人员可以点开工时查看自己工时来源，若有问题及时与录入者或带班人员沟通。
+                        </p>
+                        <p>
+                                8.	已有指令或或拆换工作，数据库中没有的工作项目，在other中申请，自己要填写工时，主管在审批时要严谨并与航后工时对比。同样工作在other中申请的工时不一样，系统会在月底对该工作工时平均。
+                        </p>
+                    </section>
+                </section>
+            </article>
+        </div>
+        <div class="weui-footer weui-footer_fixed-bottom">
+                <p class="weui-footer__links">
+                        <a href="javascript:home();" class="weui-footer__link">帮助首页</a>
+                    </p>
+            <p class="weui-footer__text">Copyright &copy; 2018 山航青岛基地</p>
+        </div>
+    </div>
 </script>
 <script type="text/html" id="tpl_article">
     <div class="page">
