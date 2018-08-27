@@ -59,13 +59,13 @@
                     <div class="weui-cells page__category-content">
                         <a class="weui-cell weui-cell_access js_item" data-id="article" href="javascript:;">
                             <div class="weui-cell__bd">
-                                <p>Article</p>
+                                <p>申请工时首页</p>
                             </div>
                             <div class="weui-cell__ft"></div>
                         </a>
                         <a class="weui-cell weui-cell_access js_item" data-id="badge" href="javascript:;">
                             <div class="weui-cell__bd">
-                                <p>Badge</p>
+                                <p>航前-航后-过站</p>
                             </div>
                             <div class="weui-cell__ft"></div>
                         </a>
@@ -137,6 +137,9 @@
         </ul>
     </div>
     <div class="weui-footer weui-footer_fixed-bottom">
+            <p class="weui-footer__links">
+                <a href="http://sdabj.com:8888/account/worktime/setting/" class="weui-footer__link">返回系统</a>
+            </p>
         <p class="weui-footer__text">Copyright &copy; 2018 山航青岛基地</p>
     </div>
 </div>
@@ -194,7 +197,7 @@
         <article class="weui-article">
             <section>
                 <section>
-                    <h3>通过钉钉登录系统/h3>
+                    <h3>通过钉钉登录系统 </h3>
                     <p>
                         打开钉钉APP，在工作台中，找到工时管理应用。
                     </p>
@@ -290,6 +293,46 @@
         });
     });
 </script>
+</script>
+<script type="text/html" id="tpl_article">
+    <div class="page">
+        <div class="page__hd">
+            <h1 class="page__title">申请首页</h1>
+            <p class="page__desc">申请工时</p>
+        </div>
+        <div class="page__bd">
+            <article class="weui-article">
+                <section>
+                    <section>
+                        <h3>1.新建</h3>
+                        <p>
+                            登录系统后，下方菜单栏，点击中间的按钮 
+                        </p>
+                        <p>
+                            <img src="./images/add.png" alt="">
+                        </p>
+                    </section>
+                    <section>
+                        <h3>2.注意事项</h3>
+                        <ul>
+                            <li>1）请不要重复申请，申请过的工时，在申请单里有显示，关注审批进度即可</li>
+                            <li>2）航前航后过站，由单机一人填写即可，其他人员在审批单通过后会自动得到应得的工时</li>
+                            <li>3）其他工作，由第一工作者填写，其他人员不要重复录入<li>
+                            <li>4）只有指令、NRC、杂项中没有的项目才可以另开Other类申请单</li>
+                            <li>5）航线的小项工作：打印纸，耳机，灯泡等，已经包含着航后工时里，不要再单独申请工时</li>
+                        </p>
+                        
+                    </section>
+                </section>
+            </article>
+        </div>
+        <div class="weui-footer weui-footer_fixed-bottom">
+                <p class="weui-footer__links">
+                        <a href="javascript:home();" class="weui-footer__link">帮助首页</a>
+                    </p>
+            <p class="weui-footer__text">Copyright &copy; 2018 山航青岛基地</p>
+        </div>
+    </div>
 </script>
 
     <script src="./zepto.min.js"></script>
