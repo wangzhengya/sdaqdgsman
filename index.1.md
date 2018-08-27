@@ -1,4 +1,4 @@
-## 工时管理系统帮助手册
+## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/wangzhengya/sdaqdgsman/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
